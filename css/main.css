@@ -1,0 +1,610 @@
+@media only screen and (max-width: 991px) and (min-width: 50px) {
+
+     .myh1{font-size: 36px;line-height: 50px}
+     hr.hrLogoTop{margin-top: 25px;}
+     p.subTitle{font-size: 16.5px; line-height: 23px}
+     /* LINES */
+     hr.seperator {
+       margin-top: 0px;
+       margin-bottom:0px;
+       border-color: #ffffff;
+     }
+     h6.rotw{margin-top: 30px;}
+     p.more{margin-bottom: 80px;
+       /* border-bottom: 1px solid #d5d4d2; */
+     }
+     .lrSmall  {
+       margin-left: auto;
+       margin-right: auto;
+     }
+    .aboutThisBookInfo  {margin-bottom: 50px; width: 50%;margin-left:auto; margin-right:auto;}
+    .rightColumn  {margin-top: 50px; width: 50%;margin-left:auto; margin-right:auto;}
+    .bodyArticle {margin-left: auto;margin-right: auto;width: 75%;}
+
+    .myh1 { margin-top:30px;}
+
+    img.trendingImgLines { width: 25%; opacity: 0.5;}
+    /* .mainImg{float: left;width: 25%;} */
+}
+
+@media only screen and (max-width: 500px) and (min-width: 50px) {
+  body {
+      margin: 0px;
+      padding: 0px;
+    }
+
+  nav li  {
+      display: block;
+      font-family: 'Lato', sans-serif;
+      font-weight: 700;
+      font-size: 16px;
+      text-transform: uppercase;
+      margin: 0px;
+      padding: 20px 20px 20px 20px;
+    }
+
+  hr.hrLogoTop{margin-top: 25px;}
+}
+
+/* BODY  *//* BODY  */
+body  {
+min-width: 360px;
+
+}
+/* ========= SEACRH ======== */
+.search {
+color: #000000;
+float: left;
+font-size: 14px;
+display: inline;
+margin-top: 20px;
+}
+
+.searchIcon {
+width: 14px;
+height: 14px;
+margin-left: 5px;
+}
+
+/* ========  LOGIN ======== */
+.logInIcon {
+width: 14px;
+height: 14px;
+margin-left: 5px;
+}
+.tab {font-weight: 200;}
+
+.login {
+float: right;
+text-transform: uppercase;
+margin-top: 20px;
+}
+
+/* ======== LOGO  ======== */
+.logos {
+text-align: center;
+color: #ed452e;
+}
+
+.mainLogo {
+margin-bottom: 0;
+font-size: 36px;
+}
+
+.subLogo  {
+margin-top:  0px;
+font-size: 10px;
+}
+
+/* ======== LINES ======== */
+.hrLogo {
+margin-top: 5px;
+margin-bottom: 5px;
+border-color: #d5d4d2;
+vertical-align: middle;
+}
+
+.hrLogoTop  {margin-top: 45px;}
+
+/* ======== NAVBAR  ======== */
+nav {
+/* margin-left: auto;
+margin-right: auto; */
+text-align: center;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+ul  {padding: 0px;}
+
+li  {
+display: inline-block;
+font-family: 'Lato', sans-serif;
+font-weight: 700;
+font-size: 16px;
+text-transform: uppercase;
+padding: 20px 40px 20px 40px;
+float: none;
+}
+/*======== Lines under Nav ======== */
+.hrNav  {margin: 0;}
+.hrNavArticle  {margin-bottom: 60px; margin-top: 0px}
+/* ========LINKS ======== */
+.myLinks, .mainStoryLink
+{color: #333333; text-decoration: none;}
+
+h1 a:hover {
+  color: #000000;
+  text-decoration: none;
+}
+a:hover {
+  color: #ed452e;
+  text-decoration: none;
+}
+
+/* ======== MAIN TOP ======== */
+.main {
+background-color: #ffffff;
+text-align: center;
+padding-top: 60px;
+padding-bottom: 60px;
+}
+
+.mainArticleHeader  {
+background-color: #fff;
+text-align: center;
+/* padding-top: 60px; */
+/* padding-bottom: 60px; */
+}
+
+/* MAIN IMAGE */
+.mainImg  { width: 257px;}
+.img-fluid { max-width: 100%;}
+
+/* ---- H1 H2 ---- */
+h1, .myh1 {
+font-family: 'Playfair Display', serif;
+font-size: 36px;
+line-height: 50px;
+font-weight: 900;
+text-transform: uppercase;
+}
+
+h6  {
+font-size: 10px;
+margin-top: 0px;
+}
+/* ---- SUBTITLE ---- */
+.subTitle  {
+font-family: 'Playfair Display', serif;
+font-size: 22px;
+line-height: 30px;
+font-weight: 400;
+margin-top:20px;
+margin-bottom: 30px;
+}
+
+/* USED FOR ROTW, AUTHORS NAME AND DATE */
+.rotw {
+font-family: 'Lato', sans-serif;
+font-size: 16px;
+font-weight: 400;
+color: #ed452e;
+text-transform: uppercase;
+}
+/* ---- READ MORE ---- */
+.more{
+font-family: 'Lato', sans-serif;
+font-size: 12px;
+font-weight: 300;
+color: #000000;
+text-transform: uppercase;
+margin-bottom: 0;
+text-align: center;
+}
+
+/* ----TRENDING ----*/
+.trendingImgLines{width: 30px; opacity: 0.0;}
+
+.trendingLines{width: 30px; margin-left: 0px; margin-right: 0px;}
+.reviewer {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #545353;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* BACKGROUND COLOR*/
+.trendingBackgroundColor {
+background-color: #f7F7F7;
+}
+.trendingHeading{
+font-family: 'Open Sans', sans-serif;
+font-size: 24px;
+font-weight: 900;
+letter-spacing: 0px;
+padding-top: 20px;
+text-transform: uppercase;
+text-align:center;
+margin-bottom: 30px;
+/* color: red; */
+}
+/* ---- IMG SEPERATOR ---- */
+.squiggle {
+width: 100px;
+/* opacity: 0.25; */
+margin: 20px;
+}
+.trendingGenre  {
+font-family: 'Lato', sans-serif;
+font-size: 12px;
+font-weight: 400;
+color: #ed452e;
+text-transform: uppercase;
+text-align: center;
+/* margin-left:auto;
+margin-right: auto; */
+}
+
+.lrGenreTop {
+padding-top: 20px;
+}
+
+.lrTitle  {
+font-family: 'Playfair Display', serif;
+font-size: 16px;
+font-weight: 700;
+color: #000000;
+text-transform: uppercase;
+text-align: center;
+}
+
+.lrAuthor  {
+font-family: 'Lato', sans-serif;
+font-size: 12px;
+font-weight: 700;
+color: #b6b1a9;
+text-transform: uppercase;
+text-align: center;
+}
+
+.lrPaddingBottom  {
+padding-bottom: 20px;
+}
+
+.titlePadding  {
+/* padding-left: 10px; */
+}
+
+
+
+/* LINES */
+.seperator {
+margin-top: 65px;
+border: .5px solid #d5d4d2;
+/* border-color:  */
+}
+.seperator2 {
+margin-top: 75px;
+/* border-color: #d5d4d2; */
+}
+
+/* BORDER BOX */
+.boxed {
+border-top: 1px solid #d5d4d2;
+border-bottom: 1px solid #d5d4d2;
+margin-top: 45px;
+margin-bottom: 0px;
+font-family: 'Open Sans', sans-serif;
+font-size: 24px;
+color: #333333;
+font-weight: 700;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 0px;
+padding-right: 0px;
+text-transform: uppercase;
+text-align: center;
+/* background-color: #333; */
+/* padding: 5px; */
+}
+
+/* BORDER BOX 2*/
+.boxed2 {
+border-top: 1px solid #d5d4d2;
+border-bottom: 1px solid #d5d4d2;
+margin-top: 50px;
+margin-bottom: 0px;
+font-family: 'Open Sans', sans-serif;
+font-size: 24px;
+color: #333333;
+font-weight: 700;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 0px;
+padding-right: 0px;
+text-transform: uppercase;
+text-align: center;
+background-color: #fff;
+/* padding: 5px; */
+}
+
+.myh2 {
+text-transform: uppercase;
+text-align: center;
+font-size: 24px;
+color: #333333;
+font-weight: 700;
+margin: 0px;
+}
+
+.myh2ArticleHeader {
+font-family: 'Playfair Display', serif;
+text-align: center;
+font-size: 22px;
+line-height: 30px;
+color: #333333;
+font-weight: 400;
+margin-bottom: 30px;
+}
+
+.secondStory  {
+background-color: #f7f7f7;
+/* padding-top: 40px; */
+}
+
+/* FIRST ROW */
+.firstRow {
+margin-top: 50px;
+}
+
+/* SMALL IMAGE */
+.smImg {
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+
+}
+
+.smGenre {
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: #ed452e;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.smh1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 12px;
+  font-weight: 700;
+  color: #333333;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.smAuthor {
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: #b6b1a9;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: px;
+   margin-bottom: 5px;
+}
+
+.by {
+text-transform: lowercase;
+}
+
+.smBody {
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #545353;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.smReviewer {
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: #545353;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.smMoreArrow {
+width: 16px;
+height: 16px;
+margin-left: 10px;
+/* margin-top: 20px; */
+}
+
+.shareIcon  {
+margin-right: 20px;
+}
+
+.shareInfo {
+margin-bottom: 50px:
+padding: 0px;
+}
+.shareAmount {
+margin-top: 0;
+line-height: .5;
+font-size: 12px;
+padding-top:;
+font-family: 'Lato', sans-serif;
+}
+
+.hrAuthor {
+margin-bottom:10px;
+}
+.follow {
+font-family: 'Lato', sans-serif;
+font-size: 14px;
+font-weight: 400;
+letter-spacing: 2px;
+text-align: center;
+}
+
+.signUp {
+font-size: 18px;
+}
+.followList {
+display: inline;
+font-family: 'Playfair Display', serif;
+font-size: 24px;
+font-weight: 700;
+letter-spacing:5px;
+}
+
+.followListH1 {
+font-family: 'Playfair Display', serif;
+font-size: 24px;
+font-weight: 700;
+letter-spacing:5px;
+padding-bottom: 20px;
+}
+
+.followList li {
+display: inline-block;
+padding: 0px;
+font-family: 'Playfair Display', serif;
+font-size: 24px;
+font-weight: 700;
+letter-spacing:5px;
+text-transform: lowercase;
+}
+
+.bodyFollow {
+margin-bottom: 30px;
+}
+.bottomBorderTop {
+margin-top: 60px;
+border-top: 2px solid #ebebeb;
+}
+
+.bottomBorderSpace {
+margin-top: 60px;
+}
+
+.footerRight {
+float: right;
+margin-top: 20px;
+}
+.footerLeft {
+float: left;
+margin-top: 20px;
+}
+.footerMiddle {
+float: left;
+text-align: center;
+/* padding-top: 20px; */
+padding: 20px 20px 0px 20px;
+}
+.footer  {
+  font-family: 'Lato', sans-serif;
+  font-size: 8px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: #333333;
+}
+
+.authorName {font-size: 18px;}
+.rightColumnInfo {font-size: 14px;}
+
+.authorInfo {
+  margin-bottom: 20px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+.rightColumn {
+  background-color: #f7f7f7;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+
+.mainArticle {
+  padding-left: auto;
+  padding-right: auto;
+  font-size: 18px;
+  line-height: 27px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #333333;
+  text-align: left;
+}
+
+.bodyArticle {
+  margin-bottom: 20px;
+}
+
+.bookInfo {
+  width: 200px
+}
+
+
+.twitterPic {
+  margin-right: 5px;
+  width: 16px;
+}
+.hrTop {
+margin-bottom: 10px;
+}
+
+.hrbottom {
+margin-top: 10px;
+}
+
+
+.test1  {background-color: #f7f7f7;
+      height: 200px;
+    position: relative;}
+
+.test2  {
+position: absolute;
+left: 600px;
+top: 50px;
+}
+
+.h4aboutThisBookInfo {font-size: 20px; text-transform: uppercase; font-family: "Open Sans", sans-serif; font-weight: 700; color: #333333;}
+.aboutThisBookInfo {
+font-family: 'Lato', sans-serif;
+background-color: #f7f7f7;
+text-align: center;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.aboutThisBookLine  {
+margin-bottom: 20px;
+margin-top: 20px;
+}
+/* .bookInfo{font-family: 'Lato', sans-serif;} */
+
+/* .aboutThisBookInfoText  {font-size: 16px;   font-family: 'Playfair Display', serif;font-weight: 700;} */
+
+.comments {
+border-top: 2px solid #ebebeb;
+margin-top: 80px;
+}
+/* .commentsbelow {
+border-bottom: 2px solid #ebebeb;
+margin-top: 30px;
+} */
+.commentsText {
+padding: 0px;
+}
+
+.commentsSmall  {
+  width:80%;
+}
+.allReviews {  margin-top: 20px;}
+h6.commenter {font-size: 14px; color: #333333;font-family: 'Lato', sans-serif;font-weight: 300;}
